@@ -1,0 +1,85 @@
+/* popup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    width: 320px;
+    margin: 0;
+    padding: 12px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  #search-box {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-bottom: 12px;
+  }
+  
+  #search-box:focus {
+    border-color: #0078d7;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  }
+  
+  #tab-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px; /* limits height */
+    overflow-y: auto;  /* scroll if too tall */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: white;
+  }
+  
+  #tab-list li {
+    position: relative;
+    padding: 10px 14px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.2s ease;
+  }
+  
+  #tab-list li:hover {
+    background-color: #0078d7;
+    color: white;
+  }
+  
+  #tab-list li:last-child {
+    border-bottom: none;
+  }
+
+  #tab-list li.selected {
+    background-color: #005bb5;
+    color: white;
+  }
+  
+
+  .close-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .close-btn:hover {
+    color: red;
+  }
+  
+
+
+  
