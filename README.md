@@ -16,10 +16,25 @@ HTML
 CSS
 Chrome Extensions API
 
-⚙️ How It Works (Simple Explanation)
-When you open the extension, it gets all the tabs you currently have open using Chrome’s Tabs API. These tabs are saved in a list and shown on the screen.
-As you type in the search box, the list updates in real time by matching your input with tab titles and URLs.
-You can click a tab or press Enter to open it. You can also use the arrow keys to move up and down the list. A close button lets you remove tabs you don’t need anymore.
+🖥️ How to Use / Try It
+
+1. Clone the repository
+    git clone https://github.com/safalpokharel/SMART-TAB-GENERATOR.git
+
+2. Open Chrome and go to Extensions
+    Type chrome://extensions in the address bar
+
+3. Enable Developer Mode
+    Toggle the switch in the top right corner
+
+4. Load the extension
+    Click “Load unpacked” and select the project folder
+    
+5. Use the extension
+    Click the extension icon
+    Type in the search box to filter tabs by title or URL
+    Click a tab to switch to it or press Enter
+    Use Arrow Up/Down to navigate and the ✕ button to close tabs
 
 📂 Project Structure
 ├── popup.html   → UI structure
